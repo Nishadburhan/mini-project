@@ -1,0 +1,1 @@
+SELECT employee.id, employee.name, employee.code, employee_salary.salary FROM employee INNER JOIN employee_salary ON employee.id=employee_salary.employee_id;
